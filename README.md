@@ -34,3 +34,7 @@ And to test:
 ```
 ./test.sh
 ```
+
+## References
+
+The setup of the `docker swarm` was heavily inspired by this [article](https://medium.com/@nirgn/load-balancing-applications-with-haproxy-and-docker-d719b7c5b231).
