@@ -4,8 +4,6 @@ services:
   demo-api:
    image: demo-api
    build: "./demo-api"
-   env_file:
-     - ".env"
    environment:
      - SERVICE_PORTS=8080
    ports:
